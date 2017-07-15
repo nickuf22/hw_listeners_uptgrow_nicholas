@@ -1,0 +1,21 @@
+body {
+    background-color: #cccccc;
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: #00ffff;
+}
+
+figure img {
+    margin: 0 auto;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #99ffff;
+    padding: 1%;
+}
