@@ -7,3 +7,43 @@ body {
     padding: 10%;
     margin: auto;
 }
+
+body,
+input,
+select,
+option,
+p {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+fieldset {
+    border: 5px solid #a9dfee;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+input[type="submit"] {
+    background-color: #a9dfee;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px;
+    width: 100px;
+    display: inline;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #a9dfee;
+    color: #b8b8b8;
+}
+
+input,
+textarea {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
