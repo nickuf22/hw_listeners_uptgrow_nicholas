@@ -42,8 +42,14 @@ input[type="submit"]:focus {
 input,
 textarea {
     display: block;
+    width: 100%;
 }
 
 label {
     font-weight: bold;
+}
+
+.label {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
