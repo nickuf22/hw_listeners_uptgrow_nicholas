@@ -1,27 +1,18 @@
-document.getElementById('contactform').addEventListener('submit', function (evt) {
-    evt.preventDefault();
-    document.getElementById('firstName').addEventListener(myFunction);
-    document.getElementById('lastName').addEventListener(mySecondFunction);
-    document.getElementById('email_address').addEventListener(myThirdFunction);
-    document.getElementById('comments').addEventListener(myFourthFunction);
-});
+var contactForm = document.getElementById('contactform');
+var firstname = document.getElementById('firstname').value;
+var lastname = document.getElementById('lastname').value;
+var emailAddress = document.getElementById('email_address').value;
+var message = document.getElementById('comments').value;
 
-function myFunction() {
-    var paragraph = document.createElement('p');
-    paragraph.innerHTML = 'The firstName is: ';
-}
-
-function mySecondFunction() {
-    var paragraph = document.createElement('p');
-    paragraph.innerHTML = 'The firstName is: ';
-}
-
-function myThirdFunction() {
-    var paragraph = document.createElement('p');
-    paragraph.innerHTML = 'The firstName is: ';
-}
-
-function myFourthFunction() {
-    var paragraph = document.createElement('p');
-    paragraph.innerHTML = 'The firstName is: ';
-}
+contactForm.addEventListener('submit', function () {
+    event.preventDefault();
+    document.getElementById('firstName');
+    document.getElementById('lastName');
+    document.getElementById('email_address');
+    document.getElementById('comments');
+    return false;
+}, false,
+console.log('The firstName is: ' + firstname),
+console.log('The lastName is: ' + lastname),
+console.log('The email is: ' + emailAddress),
+console.log('The message is: ' + message));
