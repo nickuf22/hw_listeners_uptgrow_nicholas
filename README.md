@@ -6,7 +6,7 @@
 		* I used this site to find event listeners to use for the custom branch.
 - I also used class notes/lectures.
 
-#Deductions
+# Deductions
 * I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
